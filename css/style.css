@@ -15,7 +15,7 @@ body{
 }
 
 .container{
-    width: 100%;
+    width: 80%;
     max-width: 660px;
     margin: auto;
     border-radius: 10px;
@@ -113,4 +113,25 @@ body{
     opacity: 0.8;
     font-size: 15px;
     padding-top: 5px;
+}
+@media (max-width: 700px){
+    .container{
+       
+        margin-bottom: 50px;
+    }
+    body{
+        padding-top: 50px;
+    }
+    .inf{
+        display: block;
+        width: 100%;
+    }
+    .inf .left{
+        border-bottom-left-radius: 0;
+        width: auto;
+    }
+    .inf .right{
+        border-bottom-left-radius: 10px;
+        width: auto;
+    }
 }
